@@ -42,9 +42,6 @@ class ConvertMilliseconds:
             self.outcome.configure(text="The result is: {}".format(self.result))
 
 
-
-
-
 root = Tk()
 my_gui = ConvertMilliseconds(root)
 root.mainloop()
